@@ -1,1 +1,14 @@
+@media only screen and (min-width: 1px) and (max-width: 499px) {
+    ul li {
+		padding: 5px;
+		border-bottom: 1px solid brown;
+		width: 100%;
+	}
+    .menu {
+    	background-color: black;
+    	flex-direction: column;
+    }
+   
+    
+}
 
