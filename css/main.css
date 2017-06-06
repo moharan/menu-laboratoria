@@ -38,3 +38,10 @@ ul li {
 		width: 100%;
 		background-color: pink;
 	}
+	ul li.detalle {
+		display: none;
+	}
+
+	.icono {
+		color: white;
+	}

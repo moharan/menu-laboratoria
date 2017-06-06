@@ -1,14 +1,32 @@
 @media only screen and (min-width: 1px) and (max-width: 499px) {
+	body {
+		font-family: 'Bubbler One', sans-serif;
+	}
     ul li {
 		padding: 5px;
-		border-bottom: 1px solid brown;
+		border-bottom: 1px solid black;
 		width: 100%;
 	}
+	ul li a {
+	text-align: left;
+	
+	}
     .menu {
-    	background-color: black;
+    	background-color: #333;
     	flex-direction: column;
     }
-   
-    
+    ul li.detalle {
+		display: block;
+		font-size: 25px;
+	}
+	ul li.normal {
+		display: none;
+	}
+	ul li.normal01 {
+		display: visibility;
+	}
+	.icono {
+		color: white;
+	}
 }
 
